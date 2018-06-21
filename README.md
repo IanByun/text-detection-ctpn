@@ -19,7 +19,7 @@ make.bat
 ```
 ***
 # demo
-- download the checkpoints from release, unzip it in checkpoints/
+- download the checkpoints from [release](https://github.com/eragonruan/text-detection-ctpn/releases), unzip it in checkpoints/
 - put your images in data/demo, the results will be saved in data/results, and run demo in the root 
 ```shell
 python ./ctpn/demo.py
