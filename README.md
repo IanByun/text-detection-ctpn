@@ -25,8 +25,9 @@ make.bat
 python ./ctpn/demo.py
 ```
 # some results
-<img src="/data/results/KakaoTalk_20180621_222012218.jpg" width=480 height=640 />
-<img src="/data/results/KakaoTalk_20180621_222013226.jpg" width=640 height=480 />
-<img src="/data/results/KakaoTalk_20180621_222014292.jpg" width=480 height=640 />
-<img src="/data/results/KakaoTalk_20180621_222015318.jpg" width=640 height=480 />
-***
+<img src="/data/results/KakaoTalk_20180621_230845095.jpg" width=427 height=240 /><img src="/data/results/KakaoTalk_20180621_222015318.jpg" width=320 height=240 />
+
+<img src="/data/results/KakaoTalk_20180621_230849164.jpg" width=320 height=240 /><img src="/data/results/KakaoTalk_20180621_230851516.jpg" width=320 height=240 />
+
+<img src="/data/results/KakaoTalk_20180621_222014292.jpg" width=240 height=320 /><img src="/data/results/KakaoTalk_20180621_230846124.jpg" width=180 height=320 /><img src="/data/results/KakaoTalk_20180621_230847379.jpg" width=180 height=320 /><img src="/data/results/KakaoTalk_20180621_230848179.jpg" width=180 height=320 />
+
