@@ -25,8 +25,8 @@ make.bat
 python ./ctpn/demo.py
 ```
 # some results
-<img src="/data/results/KakaoTalk_20180621_222012218.jpg" width=640 height=480 />
+<img src="/data/results/KakaoTalk_20180621_222012218.jpg" width=480 height=640 />
 <img src="/data/results/KakaoTalk_20180621_222013226.jpg" width=640 height=480 />
-<img src="/data/results/KakaoTalk_20180621_222014292.jpg" width=640 height=480 />
+<img src="/data/results/KakaoTalk_20180621_222014292.jpg" width=480 height=640 />
 <img src="/data/results/KakaoTalk_20180621_222015318.jpg" width=640 height=480 />
 ***
