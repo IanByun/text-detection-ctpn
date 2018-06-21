@@ -21,7 +21,8 @@ def resize_im(im, scale, max_scale=None):
 
 
 def draw_boxes(img,image_name,boxes,scale):
-    base_name = image_name.split('/')[-1]
+    base_name = image_name.split('\\')[-1]
+    print(base_name)
     with open('data/results/' + 'res_{}.txt'.format(base_name.split('.')[0]), 'w') as f:
         for box in boxes:
             if np.linalg.norm(box[0] - box[1]) < 5 or np.linalg.norm(box[3] - box[0]) < 5:
@@ -78,9 +79,9 @@ if __name__ == '__main__':
     # load model
     print(('Loading network {:s}... '.format("VGGnet_test")), end=' ')
     saver = tf.train.Saver()
-
+    
     try:
-        ckpt = tf.train.get_checkpoint_state(cfg.TEST.checkpoints_path)
+        ckpt = tf.train.get_checkpoint_state(cfg.TEST['checkpoints_path'])
         print('Restoring from {}...'.format(ckpt.model_checkpoint_path), end=' ')
         saver.restore(sess, ckpt.model_checkpoint_path)
         print('done')
